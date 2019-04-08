@@ -21,4 +21,4 @@ void join(LOGIN* list[], int count);
 int login(LOGIN* list[], int count);
 void logout(int* is_login);
 void save_file(LOGIN* list[], int count, char* filename);
-void list(LOGIN* list[], int count);
+void list(LOGIN* list[], int count);//print list function
